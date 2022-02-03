@@ -365,7 +365,7 @@ nav h1 {
 }
 
 /* ------------------------------------------------Mobile Styles -------------------*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
 .header {
     height: 259px;
     flex-wrap: wrap;
