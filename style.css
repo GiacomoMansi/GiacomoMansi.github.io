@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Pro', serif;
+
+  }
+
+.header {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050a30;
+}
+.logo img {
+    box-sizing: border-box;
+    height: auto;
+    width: 100px;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hamburger {
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #050a30;
+    cursor: pointer;
+    display: none ;
+    flex-wrap: wrap;
+}
+.hamburger:focus {
+    outline: none;
+}
+.nav {
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    color: white;
+}
+.nav a {
+    color: white;
+    font-size: 18px;
+}
+
+/*--------------------------------------Central part--------------------------------*/
+.aboutme {
+    display: flex;
+    background-color: #f4f6fc;
+    height: 720px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.information {
+    height: 527px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    flex-direction: column;
+    background-color: #050a30;
+    border-top: 8px solid #233ddf;
+    border-left: 8px solid #233ddf;
+}
+.information h1 {
+    display: flex;
+    font-size: 70px;
+    color: #233ddf ;
+    margin-bottom: 70px;
+   
+}
+.information p {
+    text-align: center;
+    color: #f4f6fc;
+}
+.about-image img {
+    height: auto;
+    width: 350px;
+    justify-content: center;
+    display: block;
+}
+.aboutme button {
+    background-color: #233ddf;
+}
+.aboutme button:hover {
+    background-color: white;
+}
+.aboutme button a {
+   
+    color: #f4f6fc;
+    outline: none;
+}
+.aboutme button a:hover {
+    
+    color: #233ddf;
+    outline: none;
+}
+
+
+/*------------------------------------------ Portoflio-Section--------------------*/ 
+.Portfolio-Section {
+    display: flex;
+    height: 720px;
+    width: 100%;
+    background-color: #050a30;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Portfolio-Section img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+    z-index: 1;
+    position: absolute;
+}
+.Portfolio-Section h1 {
+    color: #233ddf;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    justify-content: flex-start;
+    align-items: flex-start;
+    top: 50px;
+    font-size: 90px;
+    font-weight: bold;
+
+}
+.Progetto1 {
+    display: flex;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf; 
+    
+}
+.Progetto2 {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf; 
+}
+.Progetto3 {
+    display: flex;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf; 
+}
+.Progetto4 {
+    display: flex;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf; 
+}
+
+/*------------------------------------------------footer------------------------------*/
+footer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #233ddf;
+    justify-content: space-between;
+}
+footer p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: bold;
+    color: #f4f6fc;
+}
+.social {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #f4f6fc;
+}
+.social svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    color: #f4f6fc;
+}
+
+.social svg:hover {
+    color: #050a30;
+}
+
+a:hover{
+    color: #f4f6fc;
+}
+.contactss {
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    flex-direction: column;
+}
+nav h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: #050a30;
+}
+/*---------------------------------------About me page style------------*/
+
+.infome {
+    display: flex;
+    background-color: #f4f6fc;
+    height: 720px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+
+}
+.photoinfo img {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    padding: 0px;
+    background-color: #050a30;
+    border-bottom: 8px solid #233ddf;
+    display: flex;
+}
+.infomewrite {
+    display: flex;
+    background-color: #050a30;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    flex-direction: column;
+    border-bottom: 8px solid #233ddf;
+    border-right: 8px solid #233ddf;
+
+}
+.infomewrite p {
+    font-size: 22px;
+    display: flex;
+    margin-top: 0px;
+    color: #f4f6fc;
+    width: 900px;
+    justify-content: center;
+    position: relative;
+    left: -30px;
+}
+.infomewrite button{
+    display: flex;
+    margin-left: 330px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #233ddf;
+}
+.infomewrite button:hover{
+    background-color: #f4f6fc;
+    color: #233ddf;
+}
+.titleskill {
+    background-color: #050a30;
+    border: 1px solid #050a30;
+    text-align: center;
+    color: #f4f6fc;
+}
+.skill {
+    width: 100%; 
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #050a30;
+    border-top: 3px solid #050a30;
+}
+.infome button {
+    background-color: #233ddf;
+}
+.infome button:hover {
+    background-color: white;
+}
+.infome button a {
+   
+    color: #f4f6fc;
+    outline: none;
+}
+.infome button a:hover {
+    
+    color: #233ddf;
+    outline: none;
+}
+/*----------------------------------------------Portfolio Page Style --------------------------*/
+.PortfolioPage {
+        display: flex;
+        height: 650px;
+        width: auto;
+        background-color: #f4f6fc;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 0px;
+        margin-top: 0px;
+    }
+.titleportfolio h1 {
+        color: #233ddf;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 75px;
+        font-weight: bold;
+        background-color: #f4f6fc;
+        border: 0px;
+        margin: 0px;
+    
+    }
+
+
+/*---------------------------------------------Contatcs Style Page -----------------------*/
+.contactss {
+    display: flex;
+    height: 720px;
+    width: auto;
+    background-color: #f4f6fc;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.imagecontact {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: #f4f6fc;
+    border-bottom: 5px solid #233ddf;
+
+
+}
+.contactss h1 {
+    color: #233ddf;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-start;
+    top: 50px;
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 300px;
+
+}
+.contactss {
+    background-color: #f4f6fc;
+    display: flex;
+}
+.contactss ul {
+    border-right: 5px solid #233ddf;
+    border-bottom: 5px solid #233ddf;
+    margin-bottom: 25px;
+    width: 290;
+}
+
+.contactss li {
+    list-style: none;
+}
+.contactss li a {
+    font-size: 40px;
+    list-style: none;
+    color: #050a30;
+    text-align: left;
+    height: 130px;
+    margin-right: 90px;
+}
+.contactss h1 {
+    font-size: 60px;
+    color: #233ddf;
+    margin-top: 70px;
+}
+
+/* ------------------------------------------------Mobile Styles -------------------*/
+@media only screen and (max-width: 800px) {
+.header {
+    height: 259px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.nav {
+    display: none;
+    width: 100%; 
+    flex-direction: column;
+}
+.nav.show {
+    display: flex;
+    background-color: #233ddf;
+}
+.hamburger {
+    display: block;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hamburger svg {
+    width: 50px;
+    height: 50px; 
+}
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+
+}
+.information {
+    margin-top: 150px;
+    font-size: 22px;
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+}
+.about-image img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.Portfolio-Section {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #050a30;
+    align-items: center;
+    justify-content: space-around;
+}
+.Portfolio-Section img {
+    display: none;
+  }
+.Portfolio-Section h1 {
+font-size: 80px;
+text-align: center;
+}
+.Progetto1,
+.Progetto2,
+.Progetto3,
+.Progetto4 {
+    margin-top: 300px;
+}
+.Progetto4 {
+    margin-bottom: 40px;
+}
+footer {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column-reverse;
+
+}
+.social {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+/*-----------------------------------------About me mobile style*/
+.infome {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    background-color: #233ddf;
+}
+.photoinfo img {
+    width: auto;
+    background-color: red;
+    margin-left: 5px;
+    border: none
+}
+.infomewrite {
+    width: auto;
+    border: none;
+    border-bottom: 3px solid #233ddf;
+}
+.infomewrite p{
+    width: auto;
+    font-size: 22px;
+    margin-left: 5px;
+    left: 0px
+}
+.infomewrite a {
+    justify-content: flex-end;
+    margin-left: 0px;
+}
+
+.skill {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skill img {
+    
+    width: 300px;
+    height: auto;
+}
+.infomewrite button {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+/*------------------------------------------------------Portfololio Mobile Style-------*/
+.PortfolioPage {
+    display: flex;
+    height: 1900px;
+    width: auto;
+    background-color: #f4f6fc;
+    justify-content: center;
+    align-items: right;
+    flex-wrap: wrap;
+    border: 0px;
+    margin: 0px;
+}
+.titleportfolio h1 {
+    color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 75px;
+    font-weight: bold;
+    background-color: #f4f6fc;
+    border: 0px;
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+
+/*------------------------------------------------------Contacts Mobile Style------------*/
+
+.contactss {
+    border-right: 0px;
+    width: auto;
+    height: 500px;
+}
+.contactss h1 {
+    font-size: 50px;
+    margin-top: 230px;
+}
+.contactss ul {
+    margin-right: 130px;
+    width: 30px;
+  
+}
+.contactss li a {
+    font-size: 20px;
+    list-style: none;
+    color: #233ddf ;
+    text-align: left;
+    height: 70px;
+    margin-right: 90px;
+    width: 30px;
+    margin-top: 30px;
+}
+.imagecontact {
+display: flex;
+width: 400px;
+height: 300px;
+background-color: #f4f6fc;
+border-bottom: 0px;
+}
+.contactss ul {
+    border-right: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    width: 290;
+    
+}
+
+
+
+
+
+
+
+}
