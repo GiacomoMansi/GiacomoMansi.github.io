@@ -90,11 +90,17 @@ a {
 }
 .aboutme button {
     background-color: #233ddf;
+}
+.aboutme button:hover {
+    background-color: white;
+}
+.aboutme button a {
+   
     color: #f4f6fc;
     outline: none;
 }
-.aboutme button:hover {
-    background-color: #f4f6fc;
+.aboutme button a:hover {
+    
     color: #233ddf;
     outline: none;
 }
@@ -187,9 +193,9 @@ a {
 /*------------------------------------------------footer------------------------------*/
 footer {
     display: flex;
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color: #f4f6fc;
+    background-color: #233ddf;
     justify-content: space-between;
 }
 footer p {
@@ -197,7 +203,7 @@ footer p {
     align-items: flex-end;
     justify-content: center;
     font-weight: bold;
-    color: #233ddf;
+    color: #f4f6fc;
 }
 .social {
     display: flex;
@@ -205,6 +211,7 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    color: #f4f6fc;
 }
 .social svg {
     display: flex;
@@ -212,11 +219,13 @@ footer p {
     justify-content: center;
     width: 70px;
     height: 40px;
+    color: #f4f6fc;
+}
+
+.social svg:hover {
     color: #050a30;
 }
-.social svg:hover {
-    color: #233ddf;
-}
+
 a:hover{
     color: #f4f6fc;
 }
@@ -227,7 +236,6 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
     z-index: 3;
     flex-direction: column;
 }
@@ -237,7 +245,12 @@ nav h1 {
     align-items: center;
     margin: 40px;
 }
-
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: #050a30;
+}
 /*---------------------------------------About me page style------------*/
 
 .infome {
@@ -274,15 +287,19 @@ nav h1 {
 
 }
 .infomewrite p {
-    font-size: 30px;
+    font-size: 22px;
     display: flex;
-    margin-top: 90px;
+    margin-top: 0px;
     color: #f4f6fc;
+    width: 900px;
+    justify-content: center;
+    position: relative;
+    left: -30px;
 }
 .infomewrite button{
     display: flex;
     margin-left: 330px;
-    margin-bottom: 90px;
+    margin-bottom: 0px;
     color: white;
     background-color: #233ddf;
 }
@@ -304,6 +321,48 @@ nav h1 {
     background-color: #050a30;
     border-top: 3px solid #050a30;
 }
+.infome button {
+    background-color: #233ddf;
+}
+.infome button:hover {
+    background-color: white;
+}
+.infome button a {
+   
+    color: #f4f6fc;
+    outline: none;
+}
+.infome button a:hover {
+    
+    color: #233ddf;
+    outline: none;
+}
+/*----------------------------------------------Portfolio Page Style --------------------------*/
+.PortfolioPage {
+        display: flex;
+        height: 650px;
+        width: auto;
+        background-color: #f4f6fc;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 0px;
+        margin-top: 0px;
+    }
+.titleportfolio h1 {
+        color: #233ddf;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 75px;
+        font-weight: bold;
+        background-color: #f4f6fc;
+        border: 0px;
+        margin: 0px;
+    
+    }
+
+
 /*---------------------------------------------Contatcs Style Page -----------------------*/
 .contactss {
     display: flex;
@@ -365,7 +424,6 @@ nav h1 {
 }
 
 /* ------------------------------------------------Mobile Styles -------------------*/
-
 @media only screen and (max-width: 800px) {
 .header {
     height: 259px;
@@ -475,6 +533,7 @@ footer {
     width: auto;
     font-size: 22px;
     margin-left: 5px;
+    left: 0px
 }
 .infomewrite a {
     justify-content: flex-end;
@@ -500,6 +559,33 @@ footer {
     margin-top: 40px;
     font-size: 20px;
 }
+/*------------------------------------------------------Portfololio Mobile Style-------*/
+.PortfolioPage {
+    display: flex;
+    height: 1900px;
+    width: auto;
+    background-color: #f4f6fc;
+    justify-content: center;
+    align-items: right;
+    flex-wrap: wrap;
+    border: 0px;
+    margin: 0px;
+}
+.titleportfolio h1 {
+    color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 75px;
+    font-weight: bold;
+    background-color: #f4f6fc;
+    border: 0px;
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+
 /*------------------------------------------------------Contacts Mobile Style------------*/
 
 .contactss {
@@ -514,6 +600,7 @@ footer {
 .contactss ul {
     margin-right: 130px;
     width: 30px;
+  
 }
 .contactss li a {
     font-size: 20px;
@@ -522,8 +609,8 @@ footer {
     text-align: left;
     height: 70px;
     margin-right: 90px;
-    text-shadow: turquoise;
     width: 30px;
+    margin-top: 30px;
 }
 .imagecontact {
 display: flex;
@@ -535,7 +622,7 @@ border-bottom: 0px;
 .contactss ul {
     border-right: 0px;
     border-bottom: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     width: 290;
     
 }
