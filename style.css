@@ -140,7 +140,6 @@ a {
 }
 .Progetto1 {
     display: flex;
-    z-index: 2;
     height: 300px;
     width: 300px;
     width: 300px;
@@ -155,7 +154,6 @@ a {
 .Progetto2 {
     display: flex;
     position: relative;
-    z-index: 2;
     height: 300px;
     width: 300px;
     background-color: #050a30;
@@ -167,7 +165,6 @@ a {
 }
 .Progetto3 {
     display: flex;
-    z-index: 2;
     height: 300px;
     width: 300px;
     background-color: #050a30;
@@ -179,7 +176,6 @@ a {
 }
 .Progetto4 {
     display: flex;
-    z-index: 2;
     height: 300px;
     width: 300px;
     background-color: #050a30;
@@ -359,7 +355,6 @@ nav h1 {
         background-color: #f4f6fc;
         border: 0px;
         margin: 0px;
-    
     }
 
 
@@ -395,6 +390,56 @@ nav h1 {
     margin-top: 300px;
 
 }
+.email-form {
+    padding: 139px 50px;
+    border-bottom: 5px solid #233ddf;
+}
+.email-form input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: flex-end;
+}
+.writeme {
+    position: relative;
+    bottom: -10px;
+    left: 35px;
+    font-size: 25px;
+    color: #233ddf;
+}
+.emailfield {
+    width: 245px;
+    margin-bottom: 10px;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+}
+.email-textarea {
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+}
+.email-form button {
+    position: relative;
+    left: 70px;
+    color: #233ddf;
+    padding: 10px 30px;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+    background-color: #f4f6fc;
+    box-shadow: none;
+}
+.email-form button:hover {
+    background-color: #233ddf;
+    color: #f4f6fc;
+}
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 .contactss {
     background-color: #f4f6fc;
     display: flex;
@@ -404,10 +449,14 @@ nav h1 {
     border-bottom: 5px solid #233ddf;
     margin-bottom: 25px;
     width: 290;
+    position: relative;
+    top: 65px;
 }
 
 .contactss li {
     list-style: none;
+    position: relative;
+    top: -40px;
 }
 .contactss li a {
     font-size: 40px;
@@ -429,11 +478,16 @@ nav h1 {
     height: 259px;
     flex-wrap: wrap;
     align-items: flex-start;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
 }
 .nav {
     display: none;
     width: 100%; 
     flex-direction: column;
+    position: sticky;
 }
 .nav.show {
     display: flex;
@@ -446,6 +500,8 @@ nav h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative
+    
 }
 .hamburger svg {
     width: 50px;
@@ -457,7 +513,7 @@ nav h1 {
     height: 1000px;
     justify-content: center;
     align-items: center;
-
+    margin-top: 240px;
 }
 .information {
     margin-top: 150px;
@@ -517,6 +573,7 @@ footer {
     align-items: flex-start;
     width: auto;
     background-color: #233ddf;
+    margin-top: 240px;
 }
 .photoinfo img {
     width: auto;
@@ -583,6 +640,7 @@ footer {
     margin: 0px;
     padding: 15px;
     padding-bottom: 0px;
+    margin-top: 240px;
 }
 
 
@@ -592,6 +650,7 @@ footer {
     border-right: 0px;
     width: auto;
     height: 500px;
+    margin-top: 240px;
 }
 .contactss h1 {
     font-size: 50px;
@@ -625,6 +684,14 @@ border-bottom: 0px;
     margin-bottom: 0px;
     width: 290;
     
+}
+
+
+
+
+
+
+
 }
 
 
