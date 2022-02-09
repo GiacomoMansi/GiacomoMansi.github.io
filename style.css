@@ -130,7 +130,6 @@ a {
     color: #233ddf;
     display: flex;
     position: absolute;
-    z-index: 3;
     justify-content: flex-start;
     align-items: flex-start;
     top: 50px;
@@ -367,6 +366,7 @@ nav h1 {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+
 
 }
 .imagecontact {
@@ -645,20 +645,40 @@ footer {
 
 
 /*------------------------------------------------------Contacts Mobile Style------------*/
-
+.header {
+    z-index: 1;
+}
 .contactss {
     border-right: 0px;
-    width: auto;
-    height: 500px;
+    width: 100%;
+    height: 1000px;
     margin-top: 240px;
+    flex-direction: column;
+    z-index: 0px;
+}
+.imagecontact {
+    visibility: hidden;
+    
+    
+    padding: 0 px;
+    justify-content: flex-end;
+    position: relative;
+    left: -10px;
 }
 .contactss h1 {
     font-size: 50px;
     margin-top: 230px;
 }
+.email-form {
+    position: relative;
+    top: -150px;
+}
 .contactss ul {
     margin-right: 130px;
     width: 30px;
+    position: relative;
+    top: -150px;
+    justify-content: center;
   
 }
 .contactss li a {
@@ -670,6 +690,8 @@ footer {
     margin-right: 90px;
     width: 30px;
     margin-top: 30px;
+    
+    
 }
 .imagecontact {
 display: flex;
@@ -678,17 +700,34 @@ height: 300px;
 background-color: #f4f6fc;
 border-bottom: 0px;
 }
-.contactss ul {
+.email-textarea {
+    padding: 37px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+}
+.contactss ul{
     border-right: 0px;
     border-bottom: 0px;
     margin-bottom: 0px;
     width: 290;
-    
+    position: relative;
+    left: -20px;
 }
-
-
-
-
+.contactss svg {
+    width: 100px;
+    height: 200px;
+    visibility: none;
+    font-display: none;
+    font-size: 0;
+}
+.contactss ul li a {
+    visibility: none;
+    font-display: none;
+    font-size: 0;
+    margin-bottom: 70px;
+}
 
 
 
