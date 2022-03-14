@@ -45,7 +45,9 @@
     color: white;
     font-size: 18px;
 }
-
+.nav a:hover , a:active {
+    border-bottom: 1px solid #fff;
+}
 /*--------------------------------------Central part--------------------------------*/
 .aboutme {
     display: flex;
@@ -112,19 +114,10 @@ a {
     height: 720px;
     width: 100%;
     background-color: #050a30;
-    overflow: hidden;
     position: relative;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-.Portfolio-Section img {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    opacity: 20%;
-    z-index: 1;
-    position: absolute;
 }
 .Portfolio-Section h1 {
     color: #233ddf;
@@ -135,7 +128,6 @@ a {
     top: 50px;
     font-size: 90px;
     font-weight: bold;
-
 }
 .Progetto1 {
     display: flex;
@@ -147,8 +139,7 @@ a {
     align-items: center;
     color: #233ddf;
     font-weight: bold;
-    border: 5px solid #233ddf; 
-    
+    border: 5px solid #233ddf;
 }
 .Progetto2 {
     display: flex;
@@ -332,6 +323,12 @@ nav h1 {
     color: #233ddf;
     outline: none;
 }
+.javalogo {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 35px;
+}
 /*----------------------------------------------Portfolio Page Style --------------------------*/
 .PortfolioPage {
         display: flex;
@@ -355,6 +352,11 @@ nav h1 {
         border: 0px;
         margin: 0px;
     }
+.gameboy-photo {
+        object-fit: cover;
+        display: flex;
+    }
+
 
 
 /*---------------------------------------------Contatcs Style Page -----------------------*/
@@ -470,6 +472,48 @@ nav h1 {
     font-size: 60px;
     color: #233ddf;
     margin-top: 70px;
+}
+.gameboy-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.PortfolioPage a {
+    width: 300x;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #233ddf; 
+}
+
+/*----------------------------------------------Gameboy Section----------------*/
+.framepdf {
+    width: 100%;
+    height: 1000px;
+}
+#bottonegame {
+    background-color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    left: 580px;
+}
+#bottonegame:hover {
+    background-color: white;
+}
+#bottonegame a {
+   
+    color: #f4f6fc;
+    outline: none;
+}
+#bottonegame a:hover {
+    
+    color: #233ddf;
+    outline: none;
 }
 
 /* ------------------------------------------------Mobile Styles -------------------*/
@@ -728,14 +772,6 @@ border-bottom: 0px;
     font-size: 0;
     margin-bottom: 70px;
 }
-
-
-
-}
-
-
-
-
 
 
 
