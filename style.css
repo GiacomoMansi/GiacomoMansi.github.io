@@ -226,16 +226,6 @@ footer p {
 a:hover{
     color: #f4f6fc;
 }
-.contactss {
-    background-color: white;
-    width: 500px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 3;
-    flex-direction: column;
-}
 nav h1 {
     display: flex;
     justify-content: center;
@@ -374,78 +364,94 @@ nav h1 {
 
 
 /*---------------------------------------------Contatcs Style Page -----------------------*/
-.contactss {
-    display: flex;
-    height: 720px;
-    width: auto;
+.contactpage {
+    height: 1000px;
     background-color: #f4f6fc;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-
 }
-.imagecontact {
+.centralpart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imagecontactt img {
     display: flex;
     width: 400px;
     height: 500px;
-    background-color: #f4f6fc;
     border-bottom: 5px solid #233ddf;
-
-
+    align-items: center;
+    flex-direction: row; 
+    position: relative;
+    
+    width: 100%;
 }
-.contactss h1 {
+.imagecontactt {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    border-bottom: 5px solid #233ddf;
+    
+}
+.titlecontact h1 {
     color: #233ddf;
     display: flex;
-    position: absolute;
     justify-content: center;
-    align-items: flex-start;
-    top: 50px;
+    align-items: center;
     font-size: 90px;
     font-weight: bold;
-    margin-top: 300px;
-
+    text-align: center;
 }
 .email-form {
-    padding: 139px 50px;
     border-bottom: 5px solid #233ddf;
+    padding: 100px 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   top: 500px;
+   margin-top: 321px;
+   width: 500px;
+
 }
+
 .email-form input {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .writeme {
     position: relative;
-    bottom: -10px;
-    left: 35px;
-    font-size: 25px;
+    bottom: 50px;
+    left: 50px;
+    font-size: 40px;
     color: #233ddf;
 }
 .emailfield {
-    width: 245px;
+    width: 400px;
     margin-bottom: 10px;
     border: 2px solid #233ddf;
     border-radius: 10px;
 }
 .email-textarea {
-    padding: 20px;
+    padding: 400px;
     flex-wrap: wrap;
     margin-bottom: 10px;
     border: 2px solid #233ddf;
     border-radius: 10px;
+    width: 400px;
 }
 .email-form button {
     position: relative;
-    left: 70px;
+    left: 150px;
     color: #233ddf;
     padding: 10px 30px;
     border: 2px solid #233ddf;
     border-radius: 10px;
     background-color: #f4f6fc;
     box-shadow: none;
+    
 }
 .email-form button:hover {
     background-color: #233ddf;
@@ -456,11 +462,7 @@ nav h1 {
     justify-content: flex-end;
     align-items: flex-end;
 }
-.contactss {
-    background-color: #f4f6fc;
-    display: flex;
-}
-.contactss ul {
+.contactpage ul {
     border-right: 5px solid #233ddf;
     border-bottom: 5px solid #233ddf;
     margin-bottom: 25px;
@@ -469,12 +471,12 @@ nav h1 {
     top: 65px;
 }
 
-.contactss li {
+.contactpage li {
     list-style: none;
     position: relative;
     top: -40px;
 }
-.contactss li a {
+.contactpage li a {
     font-size: 40px;
     list-style: none;
     color: #050a30;
@@ -482,11 +484,7 @@ nav h1 {
     height: 130px;
     margin-right: 90px;
 }
-.contactss h1 {
-    font-size: 60px;
-    color: #233ddf;
-    margin-top: 70px;
-}
+
 .gameboy-photo {
     width: 300px;
     height: 300px;
@@ -675,7 +673,6 @@ footer {
 .javalogo {
     width: 100%;
     height: 100%;
-    
 }
 /*------------------------------------------------------Portfololio Mobile Style-------*/
 .PortfolioPage {
@@ -725,8 +722,6 @@ footer {
     padding: 15px;
     padding-bottom: 0px;
     text-align: center;
-    
-
 }
 /* -------------------------------------------------Gameboy counter section ----------*/
 .containergame {
@@ -748,24 +743,16 @@ footer {
 .header {
     z-index: 1;
 }
-.contactss {
-    border-right: 0px;
+.contactpage {
     width: 100%;
-    height: 1000px;
-    margin-top: 240px;
+    height: 2000px;
+    display: flex;
     flex-direction: column;
     z-index: 0px;
+    border: 1px solid red;
 }
-.imagecontact {
-    visibility: hidden;
-    
-    
-    padding: 0 px;
-    justify-content: flex-end;
-    position: relative;
-    left: -10px;
-}
-.contactss h1 {
+
+.contactpage h1 {
     font-size: 50px;
     margin-top: 230px;
 }
@@ -773,15 +760,13 @@ footer {
     position: relative;
     top: -150px;
 }
-.contactss ul {
-    margin-right: 130px;
+.contactpage ul {
     width: 30px;
-    position: relative;
-    top: -150px;
+
     justify-content: center;
   
 }
-.contactss li a {
+.contactpage li a {
     font-size: 20px;
     list-style: none;
     color: #233ddf ;
@@ -793,13 +778,6 @@ footer {
     
     
 }
-.imagecontact {
-display: flex;
-width: 400px;
-height: 300px;
-background-color: #f4f6fc;
-border-bottom: 0px;
-}
 .email-textarea {
     padding: 37px;
     flex-wrap: wrap;
@@ -807,27 +785,22 @@ border-bottom: 0px;
     border: 2px solid #233ddf;
     border-radius: 10px;
 }
-.contactss ul{
+.contactpage ul{
     border-right: 0px;
     border-bottom: 0px;
     margin-bottom: 0px;
     width: 290;
-    position: relative;
-    left: -20px;
 }
-.contactss svg {
+.contactpage svg {
     width: 100px;
     height: 200px;
     visibility: none;
     font-display: none;
     font-size: 0;
 }
-.contactss ul li a {
+.contactpage ul li a {
     visibility: none;
     font-display: none;
     font-size: 0;
     margin-bottom: 70px;
 }
-
-
-
