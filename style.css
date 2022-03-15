@@ -490,17 +490,19 @@ nav h1 {
 }
 
 /*----------------------------------------------Gameboy Section----------------*/
-.framepdf {
-    width: 100%;
-    height: 1000px;
+.containergame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #bottonegame {
     background-color: #233ddf;
     display: flex;
     justify-content: center;
     align-content: center;
-    position: relative;
-    left: 580px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 #bottonegame:hover {
     background-color: white;
@@ -643,14 +645,12 @@ footer {
 
 .skill {
     flex-direction: column;
-    flex-wrap: wrap;
-    height: auto;
+    height: 1700px;
     width: auto;
     justify-content: flex-start;
     align-items: center;
 }
 .skill img {
-    
     width: 300px;
     height: auto;
 }
@@ -659,6 +659,12 @@ footer {
     margin-left: 0px;
     margin-top: 40px;
     font-size: 20px;
+}
+.javalogo {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    
 }
 /*------------------------------------------------------Portfololio Mobile Style-------*/
 .PortfolioPage {
@@ -686,8 +692,34 @@ footer {
     padding-bottom: 0px;
     margin-top: 240px;
 }
-
-
+.gamephoto {
+    width: 10px;
+    height: 10px;
+    display: block;
+    z-index:110;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* -------------------------------------------------Gameboy counter section ----------*/
+.containergame {
+    height: 2900px;
+    width: 100%;
+}
+.containergame img {
+    width: 100%;
+    height: 400px;
+    border: 1px solid red;
+}
+}
+.bottonegame {
+    position: absolute;
+    left: 0;
+    margin-bottom: 10px;
+}
 /*------------------------------------------------------Contacts Mobile Style------------*/
 .header {
     z-index: 1;
@@ -773,6 +805,3 @@ border-bottom: 0px;
     margin-bottom: 70px;
 }
 
-
-
-}
