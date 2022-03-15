@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Crimson Pro', serif;
-
   }
 
 .header {
@@ -109,25 +108,30 @@ a {
 
 
 /*------------------------------------------ Portoflio-Section--------------------*/ 
-.Portfolio-Section {
+.PortfolioPageHome {
     display: flex;
-    height: 720px;
+    height: 500px;
     width: 100%;
     background-color: #050a30;
-    position: relative;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
-.Portfolio-Section h1 {
+.titleport {
     color: #233ddf;
-    display: flex;
-    position: absolute;
-    justify-content: flex-start;
-    align-items: flex-start;
-    top: 50px;
+    display: -webkit-box;
+    justify-content: center;
+    align-items: center;
     font-size: 90px;
     font-weight: bold;
+    background-color: #050a30;
+    text-align: center;
+    margin: 0px;
+}
+.titleportfoliohome h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Progetto1 {
     display: flex;
@@ -174,6 +178,13 @@ a {
     color: #233ddf;
     font-weight: bold;
     border: 5px solid #233ddf; 
+}
+.gameboy-phooto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
 }
 
 /*------------------------------------------------footer------------------------------*/
@@ -352,9 +363,12 @@ nav h1 {
         border: 0px;
         margin: 0px;
     }
-.gameboy-photo {
-        object-fit: cover;
-        display: flex;
+.gameboy-phooto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
     }
 
 
@@ -575,17 +589,12 @@ nav h1 {
 
 }
 
-.Portfolio-Section {
-    display: flex;
-    height: auto;
-    width: 100%;
-    background-color: #050a30;
-    align-items: center;
-    justify-content: space-around;
+.PortfolioPageHome {
+    height: 2000px;
+    justify-content: start;
+    align-items: flex-start;
+    
 }
-.Portfolio-Section img {
-    display: none;
-  }
 .Portfolio-Section h1 {
 font-size: 80px;
 text-align: center;
@@ -595,6 +604,9 @@ text-align: center;
 .Progetto3,
 .Progetto4 {
     margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Progetto4 {
     margin-bottom: 40px;
@@ -677,6 +689,15 @@ footer {
     border: 0px;
     margin: 0px;
 }
+.PortfolioPageHome {
+    display: flex;
+    width: auto;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: right;
+    flex-wrap: wrap;
+    border: 0px;
+}
 .titleportfolio h1 {
     color: #233ddf;
     display: flex;
@@ -691,16 +712,21 @@ footer {
     padding-bottom: 0px;
     margin-top: 240px;
 }
-.gamephoto {
-    width: 10px;
-    height: 10px;
-    display: block;
-    z-index:110;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.titleport {
+    color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    font-weight: bold;
+    background-color: #050a30;
+    border: 0px;
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+    
+
 }
 /* -------------------------------------------------Gameboy counter section ----------*/
 .containergame {
@@ -717,6 +743,7 @@ footer {
     left: 0;
     margin-bottom: 10px;
 }
+
 /*------------------------------------------------------Contacts Mobile Style------------*/
 .header {
     z-index: 1;
@@ -801,4 +828,6 @@ border-bottom: 0px;
     font-size: 0;
     margin-bottom: 70px;
 }
+
+
 
