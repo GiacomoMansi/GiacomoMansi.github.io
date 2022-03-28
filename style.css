@@ -365,8 +365,9 @@ nav h1 {
 
 /*---------------------------------------------Contatcs Style Page -----------------------*/
 .contactpage {
-    height: 1000px;
+    height: 800px;
     background-color: #f4f6fc;
+    border: 0px;
 }
 .centralpart {
     display: flex;
@@ -408,7 +409,7 @@ nav h1 {
    align-items: center;
    justify-content: space-between;
    position: relative;
-   top: 500px;
+   top: -113px;
    margin-top: 321px;
    width: 500px;
 
@@ -435,7 +436,6 @@ nav h1 {
     border-radius: 10px;
 }
 .email-textarea {
-    padding: 400px;
     flex-wrap: wrap;
     margin-bottom: 10px;
     border: 2px solid #233ddf;
@@ -732,7 +732,6 @@ footer {
     width: 100%;
     height: 400px;
 }
-}
 .bottonegame {
     position: absolute;
     left: 0;
@@ -740,29 +739,49 @@ footer {
 }
 
 /*------------------------------------------------------Contacts Mobile Style------------*/
-.header {
+header {
     z-index: 1;
+    width: 100%;
+    margin: 0px;
+
 }
 .contactpage {
     width: 100%;
-    height: 2000px;
+    height: 1600px;
     display: flex;
     flex-direction: column;
     z-index: 0px;
-    border: 1px solid red;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
 }
 
 .contactpage h1 {
     font-size: 50px;
-    margin-top: 230px;
+    margin-top: 0px;
+
+}
+.centralpart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
 }
 .email-form {
     position: relative;
     top: -150px;
+    left: -50px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+
 }
 .contactpage ul {
     width: 30px;
-
+    margin: 0px;
+    border: 0px;
     justify-content: center;
   
 }
@@ -772,35 +791,71 @@ footer {
     color: #233ddf ;
     text-align: left;
     height: 70px;
-    margin-right: 90px;
     width: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin: 0px;
     
     
+}
+.contactpage p {
+    width: 10px;
+}
+.emailfield{
+    width: 350px;
 }
 .email-textarea {
     padding: 37px;
     flex-wrap: wrap;
-    margin-bottom: 10px;
     border: 2px solid #233ddf;
     border-radius: 10px;
+    margin: 0px;
+    width: 350px;
+    margin-bottom: 10px;
+
+
 }
 .contactpage ul{
     border-right: 0px;
     border-bottom: 0px;
     margin-bottom: 0px;
     width: 290;
+    margin: 0px;
+
 }
-.contactpage svg {
-    width: 100px;
-    height: 200px;
+.contactpage img {
+    width: 0px;
+    height: 0px;
     visibility: none;
     font-display: none;
     font-size: 0;
+    display: none;
+    margin: 0px;
+    border-bottom: 0px;
+    
 }
 .contactpage ul li a {
     visibility: none;
     font-display: none;
     font-size: 0;
-    margin-bottom: 70px;
+    margin: 0px;
+    position: relative;
+    left: -40px;
+    bottom: 30px;
+
+}
+.contactpage li a {
+    font-size: 40px;
+    list-style: none;
+    color: #050a30;
+    text-align: left;
+    height: 130px;
+    margin-right: 0px;
+    margin: 0px;
+}
+.hydrated {
+    padding: 0px;
+}
+.imagecontactt {
+    border-bottom: 0px;
+}
 }
