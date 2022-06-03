@@ -1,0 +1,873 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Pro', serif;
+  }
+
+.header {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050a30;
+}
+.logo img {
+    box-sizing: border-box;
+    height: auto;
+    width: 100px;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hamburger {
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #050a30;
+    cursor: pointer;
+    display: none ;
+    flex-wrap: wrap;
+}
+.hamburger:focus {
+    outline: none;
+}
+.nav {
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    color: white;
+}
+.nav a {
+    color: white;
+    font-size: 18px;
+}
+.nav a:hover , a:active {
+    border-bottom: 1px solid #fff;
+}
+/*--------------------------------------Central part--------------------------------*/
+.aboutme {
+    display: flex;
+    background-color: #f4f6fc;
+    height: 720px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.information {
+    height: 527px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    flex-direction: column;
+    background-color: #050a30;
+    border-top: 8px solid #233ddf;
+    border-left: 8px solid #233ddf;
+}
+.information h1 {
+    display: flex;
+    font-size: 70px;
+    color: #233ddf ;
+    margin-bottom: 70px;
+   
+}
+.information p {
+    text-align: center;
+    color: #f4f6fc;
+}
+.about-image img {
+    height: auto;
+    width: 350px;
+    justify-content: center;
+    display: block;
+}
+.aboutme button {
+    background-color: #233ddf;
+}
+.aboutme button:hover {
+    background-color: white;
+}
+.aboutme button a {
+   
+    color: #f4f6fc;
+    outline: none;
+}
+.aboutme button a:hover {
+    
+    color: #233ddf;
+    outline: none;
+}
+
+
+/*------------------------------------------ Portoflio-Section--------------------*/ 
+.PortfolioPageHome {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: #050a30;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.titleport {
+    color: #233ddf;
+    display: -webkit-box;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+    background-color: #050a30;
+    text-align: center;
+    margin: 0px;
+}
+.titleportfoliohome h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Progetto1 {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf;
+}
+.Progetto2 {
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf; 
+}
+.Progetto3 {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf; 
+}
+.Progetto4 {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: center;
+    color: #233ddf;
+    font-weight: bold;
+    border: 5px solid #233ddf; 
+}
+.gameboy-phooto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: fit-content;
+    width: fit-content;
+}
+.darkmode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+/*------------------------------------------------footer------------------------------*/
+footer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #233ddf;
+    justify-content: space-between;
+}
+footer p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: bold;
+    color: #f4f6fc;
+}
+.social {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #f4f6fc;
+}
+.social svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    color: #f4f6fc;
+}
+
+.social svg:hover {
+    color: #050a30;
+}
+
+a:hover{
+    color: #f4f6fc;
+}
+nav h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: #050a30;
+}
+/*---------------------------------------About me page style------------*/
+
+.infome {
+    display: flex;
+    background-color: #f4f6fc;
+    height: 720px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+
+}
+.photoinfo img {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    padding: 0px;
+    background-color: #050a30;
+    border-bottom: 8px solid #233ddf;
+    display: flex;
+}
+.infomewrite {
+    display: flex;
+    background-color: #050a30;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    flex-direction: column;
+    border-bottom: 8px solid #233ddf;
+    border-right: 8px solid #233ddf;
+
+}
+.infomewrite p {
+    font-size: 22px;
+    display: flex;
+    margin-top: 0px;
+    color: #f4f6fc;
+    width: 900px;
+    justify-content: center;
+    position: relative;
+    left: -30px;
+}
+.infomewrite button{
+    display: flex;
+    margin-left: 330px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #233ddf;
+}
+.infomewrite button:hover{
+    background-color: #f4f6fc;
+    color: #233ddf;
+}
+.titleskill {
+    background-color: #050a30;
+    border: 1px solid #050a30;
+    text-align: center;
+    color: #f4f6fc;
+}
+.skill {
+    width: 100%; 
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #050a30;
+    border-top: 3px solid #050a30;
+}
+.infome button {
+    background-color: #233ddf;
+}
+.infome button:hover {
+    background-color: white;
+}
+.infome button a {
+   
+    color: #f4f6fc;
+    outline: none;
+}
+.infome button a:hover {
+    
+    color: #233ddf;
+    outline: none;
+}
+.javalogo {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 35px;
+}
+/*----------------------------------------------Portfolio Page Style --------------------------*/
+.PortfolioPage {
+        display: flex;
+        height: 650px;
+        width: auto;
+        background-color: #f4f6fc;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 0px;
+        margin-top: 0px;
+    }
+.titleportfolio h1 {
+        color: #233ddf;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 75px;
+        font-weight: bold;
+        background-color: #f4f6fc;
+        border: 0px;
+        margin: 0px;
+    }
+.gameboy-phooto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    }
+
+
+
+/*---------------------------------------------Contatcs Style Page -----------------------*/
+.contactpage {
+    height: 800px;
+    background-color: #f4f6fc;
+    border: 0px;
+}
+.centralpart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imagecontactt img {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    border-bottom: 5px solid #233ddf;
+    align-items: center;
+    flex-direction: row; 
+    position: relative;
+    
+    width: 100%;
+}
+.imagecontactt {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    border-bottom: 5px solid #233ddf;
+    
+}
+.titlecontact h1 {
+    color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+}
+.email-form {
+    border-bottom: 5px solid #233ddf;
+    padding: 100px 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   top: -113px;
+   margin-top: 321px;
+   width: 500px;
+
+}
+
+.email-form input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: flex-start;
+}
+.writeme {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font-size: 40px;
+    color: #233ddf;
+}
+.emailfield {
+    width: 400px;
+    margin-bottom: 10px;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+}
+.email-textarea {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+    width: 400px;
+}
+.email-form button {
+    position: relative;
+    left: 150px;
+    color: #233ddf;
+    padding: 10px 30px;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+    background-color: #f4f6fc;
+    box-shadow: none;
+    
+}
+.email-form button:hover {
+    background-color: #233ddf;
+    color: #f4f6fc;
+}
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.contactpage ul {
+    border-right: 5px solid #233ddf;
+    border-bottom: 5px solid #233ddf;
+    margin-bottom: 25px;
+    width: 290;
+    position: relative;
+    top: 65px;
+}
+
+.contactpage li {
+    list-style: none;
+    position: relative;
+    top: -40px;
+}
+.contactpage li a {
+    font-size: 40px;
+    list-style: none;
+    color: #050a30;
+    text-align: left;
+    height: 130px;
+    margin-right: 90px;
+}
+
+.gameboy-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.PortfolioPage a {
+    width: 300x;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #233ddf; 
+}
+
+/*----------------------------------------------Gameboy Section----------------*/
+.containergame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bottonegame {
+    background-color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#bottonegame:hover {
+    background-color: white;
+}
+#bottonegame a {
+   
+    color: #f4f6fc;
+    outline: none;
+}
+#bottonegame a:hover {
+    
+    color: #233ddf;
+    outline: none;
+}
+/*leggo libri section*/
+.leggolibri-photo {
+    width: fit-content;
+    height: fit-content;
+}
+
+/* ------------------------------------------------Mobile Styles -------------------*/
+@media only screen and (max-width: 800px) {
+.header {
+    height: 259px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.nav {
+    display: none;
+    width: 100%; 
+    flex-direction: column;
+    position: sticky;
+}
+.nav.show {
+    display: flex;
+    background-color: #233ddf;
+}
+.hamburger {
+    display: block;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative
+    
+}
+.hamburger svg {
+    width: 50px;
+    height: 50px; 
+}
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px;
+}
+.information {
+    margin-top: 150px;
+    font-size: 22px;
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+}
+.about-image img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.PortfolioPageHome {
+    height: 2000px;
+    justify-content: start;
+    align-items: flex-start;
+    
+}
+.Portfolio-Section h1 {
+font-size: 80px;
+text-align: center;
+}
+.Progetto1,
+.Progetto2,
+.Progetto3,
+.Progetto4 {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Progetto4 {
+    margin-bottom: 40px;
+}
+footer {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column-reverse;
+
+}
+.social {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+/*-----------------------------------------About me mobile style*/
+.infome {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    background-color: #233ddf;
+    margin-top: 240px;
+}
+.photoinfo img {
+    width: auto;
+    background-color: red;
+    margin-left: 5px;
+    border: none
+}
+.infomewrite {
+    width: auto;
+    border: none;
+    border-bottom: 3px solid #233ddf;
+}
+.infomewrite p{
+    width: auto;
+    font-size: 22px;
+    margin-left: 5px;
+    left: 0px
+}
+.infomewrite a {
+    justify-content: flex-end;
+    margin-left: 0px;
+}
+
+.skill {
+    flex-direction: column;
+    height: 1700px;
+    width: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skill img {
+    width: 300px;
+    height: auto;
+}
+.infomewrite button {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.javalogo {
+    width: 100%;
+    height: 100%;
+}
+/*------------------------------------------------------Portfololio Mobile Style-------*/
+.PortfolioPage {
+    display: flex;
+    height: 1900px;
+    width: auto;
+    background-color: #f4f6fc;
+    justify-content: center;
+    align-items: right;
+    flex-wrap: wrap;
+    border: 0px;
+    margin: 0px;
+}
+.PortfolioPageHome {
+    display: flex;
+    width: auto;
+    background-color: #050a30;
+    justify-content: center;
+    align-items: right;
+    flex-wrap: wrap;
+    border: 0px;
+}
+.titleportfolio h1 {
+    color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 75px;
+    font-weight: bold;
+    background-color: #f4f6fc;
+    border: 0px;
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-top: 240px;
+}
+.titleport {
+    color: #233ddf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    font-weight: bold;
+    background-color: #050a30;
+    border: 0px;
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+/* -------------------------------------------------Gameboy counter section ----------*/
+.containergame {
+    height: 2900px;
+    width: 100%;
+}
+.containergame img {
+    width: 100%;
+    height: 400px;
+}
+.bottonegame {
+    position: absolute;
+    left: 0;
+    margin-bottom: 10px;
+}
+
+/*------------------------------------------------------Contacts Mobile Style------------*/
+header {
+    z-index: 1;
+    width: 100%;
+    margin: 0px;
+
+}
+.contactpage {
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0px;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
+}
+
+.contactpage h1 {
+    font-size: 50px;
+    margin-top: 0px;
+
+}
+.centralpart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.email-form {
+    position: relative;
+    top: -150px;
+    left: -50px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+
+}
+.contactpage ul {
+    width: 30px;
+    margin: 0px;
+    border: 0px;
+    justify-content: center;
+  
+}
+.contactpage li a {
+    font-size: 20px;
+    list-style: none;
+    color: #233ddf ;
+    text-align: left;
+    height: 70px;
+    width: 30px;
+    margin-top: 10px;
+    margin: 0px;
+    
+    
+}
+.contactpage p {
+    width: 10px;
+}
+.emailfield{
+    width: 350px;
+}
+.email-textarea {
+    padding: 37px;
+    flex-wrap: wrap;
+    border: 2px solid #233ddf;
+    border-radius: 10px;
+    margin: 0px;
+    width: 350px;
+    margin-bottom: 10px;
+
+
+}
+.contactpage ul{
+    border-right: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    width: 290;
+    margin: 0px;
+
+}
+.contactpage img {
+    width: 0px;
+    height: 0px;
+    visibility: none;
+    font-display: none;
+    font-size: 0;
+    display: none;
+    margin: 0px;
+    border-bottom: 0px;
+    
+}
+.contactpage ul li a {
+    visibility: none;
+    font-display: none;
+    font-size: 0;
+    margin: 0px;
+    position: relative;
+    left: -40px;
+    bottom: 30px;
+
+}
+.contactpage li a {
+    font-size: 40px;
+    list-style: none;
+    color: #050a30;
+    text-align: left;
+    height: 130px;
+    margin-right: 0px;
+    margin: 0px;
+}
+.hydrated {
+    padding: 0px;
+}
+.imagecontactt {
+    border-bottom: 0px;
+}
+}
