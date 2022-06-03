@@ -137,7 +137,6 @@ a {
     display: flex;
     height: 300px;
     width: 300px;
-    width: 300px;
     background-color: #050a30;
     justify-content: center;
     align-items: center;
@@ -184,7 +183,15 @@ a {
     align-items: center;
     justify-content: center;
     width: 100px;
-    height: 30px;
+    height: fit-content;
+    width: fit-content;
+}
+.darkmode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
 }
 
 /*------------------------------------------------footer------------------------------*/
@@ -528,6 +535,11 @@ nav h1 {
     
     color: #233ddf;
     outline: none;
+}
+/*leggo libri section*/
+.leggolibri-photo {
+    width: fit-content;
+    height: fit-content;
 }
 
 /* ------------------------------------------------Mobile Styles -------------------*/
