@@ -556,16 +556,13 @@ nav h1 {
 font-size: 80px;
 text-align: center;
 }
-.Progetto1,
-.Progetto2,
-.Progetto3,
-.Progetto4 {
+.Progetto {
     margin-top: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Progetto4 {
+.Progetto {
     margin-bottom: 40px;
 }
 footer {
@@ -636,7 +633,7 @@ footer {
 /*------------------------------------------------------Portfololio Mobile Style-------*/
 .PortfolioPage {
     display: flex;
-    height: 2500px;
+    height: 3500px;
     width: auto;
     background-color: #f4f6fc;
     justify-content: center;
@@ -653,6 +650,7 @@ footer {
     align-items: right;
     flex-wrap: wrap;
     border: 0px;
+    height: 3400px;
 }
 .titleportfolio h1 {
     color: #233ddf;
