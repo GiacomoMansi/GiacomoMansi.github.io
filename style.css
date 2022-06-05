@@ -110,12 +110,13 @@ a {
 /*------------------------------------------ Portoflio-Section--------------------*/ 
 .PortfolioPageHome {
     display: flex;
-    height: 500px;
+    height: auto;
     width: 100%;
     background-color: #050a30;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    border: 1px solid red;
 }
 .titleport {
     color: #233ddf;
@@ -600,7 +601,7 @@ nav h1 {
 }
 
 .PortfolioPageHome {
-    height: 2000px;
+    height: 2500px;
     justify-content: start;
     align-items: flex-start;
     
@@ -689,7 +690,7 @@ footer {
 /*------------------------------------------------------Portfololio Mobile Style-------*/
 .PortfolioPage {
     display: flex;
-    height: 1900px;
+    height: 2500px;
     width: auto;
     background-color: #f4f6fc;
     justify-content: center;
